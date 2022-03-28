@@ -1,6 +1,6 @@
 package voiture;
 
-public class MetaVoiture extends Voiture implements Surveillable{
+public class MetaVoiture extends Voiture implements Surveillable, Meta{
 
     public MetaVoiture(int vitesse) {
         super(vitesse);

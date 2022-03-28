@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Reflexion-POA.iml" filepath="$PROJECT_DIR$/.idea/Reflexion-POA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meta/compilation_memoire/compilation_memoire.iml" filepath="$PROJECT_DIR$/meta/compilation_memoire/compilation_memoire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meta/meta.iml" filepath="$PROJECT_DIR$/meta/meta.iml" />
+    </modules>
+  </component>
+</project>

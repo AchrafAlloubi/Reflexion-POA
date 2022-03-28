@@ -56,7 +56,8 @@ public class Main {
 
     private static void surveillerVoiture(Voiture v) throws Exception {
         if (v.getPosition() > 1000) {
-            if (v.getClass().getName().contains("Meta")) {
+
+            if (v instanceof voiture.Meta){
                 int depassement = ((Surveillable)v).surveiller(60);
                 if (depassement > 10)
                     throw new Exception("ID : " + v.getId() + " --> depassement de " + depassement + " (" + v.getClass() + ")");

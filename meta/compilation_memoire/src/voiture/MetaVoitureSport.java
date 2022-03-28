@@ -1,6 +1,6 @@
 package voiture;
 
-public class MetaVoitureSport extends VoitureSport implements Surveillable {
+public class MetaVoitureSport extends VoitureSport implements Surveillable, Meta {
     public MetaVoitureSport() { super(); }
 
     @Override
